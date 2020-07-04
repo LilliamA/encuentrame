@@ -1,3 +1,26 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+
+* { 
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+td, p, label, input{
+    font-size: 14px;
+}
+h1{
+    font-size: 20px;
+}
+.wrapper{
+    display: block;
+    margin: 10px auto;
+    padding-top: 100px;
+    width: calc(100% - 40px);
+    max-width: 1140px;
+    min-height: 60vh;
+}
