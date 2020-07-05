@@ -27,8 +27,10 @@ ActiveRecord::Schema.define(version: 2020_07_04_215500) do
     t.text "description"
     t.float "price"
     t.float "discount"
+    t.bigint "category_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["category_id"], name: "index_products_on_category_id"
   end
 
 end
