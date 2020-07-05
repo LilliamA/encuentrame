@@ -14,11 +14,38 @@ body{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
 }
-td, p, label, input{
+body, p, ol, ul, td {
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 }
-h1{
-    font-size: 20px;
+h1 
+    { 
+    font-size: 2.2em; 
+} 
+     
+h2 
+    { 
+    font-size: 2.0em;     
+} 
+     
+h3 
+    { 
+    font-size: 1.8em; 
+} 
+     
+h4 
+    { 
+    font-size: 1.6em;     
+} 
+     
+h5 
+    { 
+    font-size: 1.4em;     
+} 
+     
+p 
+    { 
+    font-size: 1.2em;     
 }
 .wrapper{
     display: block;
@@ -27,4 +54,25 @@ h1{
     width: calc(100% - 40px);
     max-width: 1140px;
     min-height: 60vh;
+}
+
+input.text 
+  { 
+  padding: 3px; 
+  border: 1px solid #999999;     
+}
+
+
+// Table
+
+table 
+  {  
+  border-spacing: 0; 
+  border-collapse: collapse; 
+} 
+
+td  
+  { 
+  text-align: left; 
+  font-weight: normal; 
 }

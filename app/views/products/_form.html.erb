@@ -30,7 +30,10 @@
     <%= form.label :discount %>
     <%= form.text_field :discount %>
   </div>
-
+  <div class="field">
+  <label>Categoria</label>
+      <%= select_tag 'category_id', options_for_select(Category.all.collect{ |u| [u.name, u.id] }) %>
+      </div>
   <div class="actions">
     <%= form.submit %>
   </div>
