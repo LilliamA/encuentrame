@@ -1,0 +1,6 @@
+production:
+  cloud_name: "sample"
+  api_key: "655966911798674"
+  api_secret: "UIcplcv13fexJsJ4Hgr9cfbmNh0"
+  secure: true
+  cdn_subdomain: true
