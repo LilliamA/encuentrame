@@ -34,6 +34,9 @@
   <label>Categoria</label>
       <%= select_tag 'category_id', options_for_select(Category.all.collect{ |u| [u.name, u.id] }) %>
       </div>
+      <%= form.fields_for :media do |f| %>
+        <%= f.file_field :name %>
+        <% end %>
   <div class="actions">
     <%= form.submit %>
   </div>

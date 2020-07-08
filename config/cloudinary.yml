@@ -1,6 +1,6 @@
 production:
   cloud_name: "sample"
-  api_key: "655966911798674"
-  api_secret: "UIcplcv13fexJsJ4Hgr9cfbmNh0"
+  api_key: "868184375377887"
+  api_secret: "PV-ec5GnaNHKLpoHuZmkgwViAG8"
   secure: true
   cdn_subdomain: true

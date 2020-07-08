@@ -24,10 +24,11 @@ class ProductsController < ApplicationController
   # POST /products
   # POST /products.json
   def create
+    #TODO FIND A BETTER WAY TO HANDLE IMAGES MAYBE A SERVICE 
+    #TODO MOVE SET CATEGORY OUTSIDE CREATE METHOD 
     @category = Category.find(params[:category_id])
-    puts "ddddddd"
-    p @category
     @product = @category.products.create(product_params)
+    @product.uploads.build(name: params[:product][:media][:name]) 
     respond_to do |format|
       if @product.save
         format.html { redirect_to @product, notice: 'Product was successfully created.' }
