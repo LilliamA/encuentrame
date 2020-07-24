@@ -20,10 +20,9 @@
   <%= @product.discount %>
 </p>
 <strong>Gallery:</strong>
-
 <% @product.uploads.each do |media| %>
   <p>Hola</p>
-  <%= image_tag media.name_url %>
+  <%= image_tag media.name_url%><br>
 
 <% end %>
 <%= link_to 'Edit', edit_product_path(@product) %> |

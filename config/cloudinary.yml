@@ -1,6 +1,21 @@
+development:
+  cloud_name: "dvbyibq3r"
+  api_key: "868184375377887"
+  api_secret: "PV-ec5GnaNHKLpoHuZmkgwViAG8"
+  enhance_image_tag: true
+  static_image_support: false
+  secure: true
 production:
   cloud_name: "dvbyibq3r"
   api_key: "868184375377887"
   api_secret: "PV-ec5GnaNHKLpoHuZmkgwViAG8"
+  enhance_image_tag: true
+  static_image_support: true
   secure: true
-  cdn_subdomain: true
+test:
+  cloud_name: "dvbyibq3r"
+  api_key: "868184375377887"
+  api_secret: "PV-ec5GnaNHKLpoHuZmkgwViAG8"
+  enhance_image_tag: true
+  static_image_support: false
+  secure: true
